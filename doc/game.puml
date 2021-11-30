@@ -1,0 +1,15 @@
+@startuml
+
+class Game {
++ {static} uint8_t datapin
++ {static} uint8_t field_length
++ {static} uint32_t button_timeout
++ {static} uint8_t max_points
++ CRGB leds[]
++ float speed
++ float pos
++ float prevframe
++ bool direction
+}
+
+@enduml

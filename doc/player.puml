@@ -1,0 +1,10 @@
+@startuml
+
+class Player {
++ uint8_t bpin
++ uint32_t time_stamp
++ bool bpressed
+Player(uit8_t)
+}
+
+@enduml
